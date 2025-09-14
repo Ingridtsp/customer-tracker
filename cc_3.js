@@ -21,3 +21,13 @@ customers.push({name: "Melanie Tejada",
 });
 // removed data 
 customers.shift();
+
+//step 4: update customer info
+//updating email address for Jade 
+customers[0].email = "jade.v.hidalgo@newemail.com";
+
+//add a new purchase for Jonathan 
+customers[1].purchases.push("wipers");
+
+
+
