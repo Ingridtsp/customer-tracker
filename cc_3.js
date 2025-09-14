@@ -1,7 +1,7 @@
 //coding challenge 3a
 
 // Step 2: create customer records 
-let customer= [
+let customers= [
     {name:"Ingrid Gonzalez",
         email:"ingrid.gonzalez@email.com",
         purchases: ["Ipad", "Ipad case"]},
@@ -11,4 +11,13 @@ let customer= [
             {name:"Jonathan Hidalgo",
                 email:"jonathan.hidalgo@email.com",
                 purchases:["car oil", "spark plugs", "jumping cables"]}
-]
+];
+
+// Step 3: add and remove data 
+customers.push({name: "Melanie Tejada",
+    email:"melanie.tejada@email.com",
+    purchases:["hair straightner", "shampoo", "conditioner"]
+
+});
+// removed data 
+customers.shift();
