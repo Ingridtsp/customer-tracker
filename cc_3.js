@@ -33,7 +33,7 @@ customers[1].purchases.push("wipers");
 customers.forEach((customer) =>{
     console.log(`Name: ${customer.name}`);
     console.log(`Email: ${customer.email}`);
-    console.log(`Total Purchases: ${customer.purchases.lenght}`);
+    console.log(`Total Purchases: ${customers.purchases.lenght}`);
     console.log("-----------------------------");})
 
 
